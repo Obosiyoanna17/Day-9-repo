@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/images/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    padding: relative;
+    z-index: 1;
+}
+
+.nav h1 {
+    color: blueviolet;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: gold;
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: red;
+    font-weight: 400;
+    margin-top: 200px;
+}
+
+.content p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: gold;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.content a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.content a:hover {
+    background-color: #555cd5;
+} 
